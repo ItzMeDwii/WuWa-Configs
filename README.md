@@ -20,6 +20,9 @@ Material examples: Sanhua's necklace, bronze scale on Jinhsi's outift, water wav
 Copy ``Engine.ini`` (choose one config) and other ini files to this location: 
 > ..Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
 
+Config 1 is modified for my personal use, lower shadow resolution for my setup R7 5700X3D + RX 6700 XT. 
+Still getting stable 120fps.
+
 | Config | NVIDIA                                                                            | AMD                                                                   | Intel                |
 |--------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------|----------------------|
 | 1      | RTX 4090, 4080, 4070, 3090, 3080 Ti, 3080, 3070 Ti                                | RX 7900 XTX/XT/GRE, 7800 XT, 7700 XT, 6950 XT, 6900 XT, 6800 XT, 6800 |                      |
