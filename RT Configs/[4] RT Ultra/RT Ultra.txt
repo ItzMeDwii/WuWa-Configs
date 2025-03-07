@@ -1,3 +1,9 @@
+; RT Shadows can reduce FPS by up to around 20%
+; If you want to try add these commands below (Visual glitch in certain areas)
+; r.RayTracing.Shadows=1 | r.raytracing.EnableRTWPO=1 | r.raytracing.CachedStaticMeshWPORTCmd=1
+
+[/Script/Engine.RendererRTXSettings]
+r.RayTracing.LimitDevice=0
 r.Lumen.ScreenProbeGather.DownsampleFactor=16
 r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution=32
 r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget=300
@@ -12,4 +18,3 @@ r.Lumen.Reflections.MaxRoughnessToTraceForFoliage=0.4
 r.RayTracingGICaptureRTSize=512
 r.RayTracing.Shadows.MinScissorPercent=0
 r.Shadow.Denoiser.MinScissorPercent=0
-r.RayTracing.Shadows.MaxNumNoScissorCullLights=10
